@@ -3,6 +3,7 @@ import { getData } from "@/lib/getData";
 
 export default async function AboutUs() {
   const data = await getData("about-uses");
+  console.log('data', data)
   const description = data.data[0].description;
 
   return (
