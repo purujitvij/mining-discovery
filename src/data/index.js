@@ -78,7 +78,7 @@ export const FOOTER = [
   {
     title: "Comment Guideline",
     path: "/comment-guideline",
-  },
+  },   
   {
     title: "Legal Notice",
     path: "/legal-notice",
